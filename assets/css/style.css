@@ -303,13 +303,13 @@ p:last-child {
 }
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #000;
+  background: #fd2147;
 }
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
 }
 .useful-footer {
-  color: #999 !important;
+  color: #fff !important;
   font-size: 22px !important;
   font-weight: 700 !important;
   font-family: 'Rubik', sans-serif;
@@ -348,7 +348,7 @@ p:last-child {
   width: 0;
   height: 0;
   border-top: 10px solid transparent;
-  border-left: 10px solid #ff0e1f;
+  border-left: 10px solid #63a3fe;
   border-bottom: 10px solid transparent;
   position: relative;
   top: 0px;
