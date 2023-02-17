@@ -343,12 +343,12 @@ p:last-child {
 }
 .useful-footer::before {
   content: '';
-  display: none;
+  display: inline-block;
   vertical-align: middle;
   width: 0;
   height: 0;
   border-top: 10px solid transparent;
-  border-left: 10px solid #fd2147;
+  border-left: 10px solid #63a3fe;
   border-bottom: 10px solid transparent;
   position: relative;
   top: 0px;
