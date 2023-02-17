@@ -389,7 +389,12 @@ p:last-child {
 .copyright {
   color: #fff;
 }
-
+.sky-bg {
+  background: #63a3fe;
+}
+#about {
+  background-image: linear-gradient(#fd2147 180px, #63a3fe 0);
+}
 
 
 
