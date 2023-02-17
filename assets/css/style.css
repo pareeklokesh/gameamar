@@ -299,11 +299,11 @@ p:last-child {
 #footer {
   color: #444444;
   font-size: 14px;
-  background: #fd2147;
+  background: #63a3fe;
 }
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #63a3fe;
+  background: #fd2147;
 }
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
