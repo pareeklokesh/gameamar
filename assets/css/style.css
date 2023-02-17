@@ -387,7 +387,7 @@ p:last-child {
   line-height: 1;
 }
 .copyright {
-  color: #fff;
+  color: #000;
 }
 .sky-bg {
   background: #63a3fe;
@@ -395,6 +395,93 @@ p:last-child {
 #about {
   background-image: linear-gradient(#fd2147 180px, #63a3fe 0);
 }
+.mobilemenu {
+  display: none;
+}
+.header .navbar-toggler {
+  border: 1px dashed rgba(255,255,255,.1);
+  outline: none !important;
+  box-shadow: none !important;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.header.header-other {
+  position: static;
+  background: #fd2147;
+}
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  position: relative;
+  display: block;
+  height: 60px;
+  width: 100%;
+  font-size: 15px;
+  color: #fff;
+  line-height: 30px;
+  font-weight: 400;
+  padding: 14px 25px;
+  background-color: transparent;
+border: 1px solid #abcdfe;
+  border-radius: 1px;
+  transition: all 300ms ease;
+  outline: none !important;
+  font-family: Raleway, sans-serif;
+  transition: all .4s linear;
+}
+.contact-form .form-group {
+  margin-bottom: 15px;
+}
+.contact-form button {
+  position: relative;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 30px;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 0px;
+  background: #fd2147;
+  border: 0;
+  margin-top: 25px;
+  padding: 10px 35px;
+  letter-spacing: 1px;
+  transition: all .4s linear;
+}
+.contact-form input:focus, .contact-form textarea:focus {
+  border-color: #fd2147;
+}
+.info-block {
+  margin-bottom: 25px;
+}
+.info-block strong {
+  position: relative;
+  display: block;
+  line-height: 30px;
+  text-transform: capitalize;
+  font-weight: 800;
+  margin-bottom: 12px;
+  padding-bottom: 5px;
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1px;
+}
+.info-block a, .info-block p {
+  color: #333;
+  transition: all .4s linear;
+}
+.info-block strong::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 30px;
+  border-bottom: 2px solid #fd2147;
+}
+
+
+
+
 
 
 
@@ -410,6 +497,24 @@ p:last-child {
 .about-area-one {
   padding-top: 230px;
   margin-top: -190px;
+}
+
+}
+
+@media (max-width: 991px) {
+  .mobilemenu {
+  display: block;
+}
+.mobilenav {
+  padding: 0;
+  width: 100% !important;
+}
+.header-nav ul {
+  text-align: left !important;
+  align-items: start !important;
+}
+.header-nav ul li {
+  padding: 0px !important;
 }
 
 }
