@@ -299,11 +299,11 @@ p:last-child {
 #footer {
   color: #444444;
   font-size: 14px;
-  background: #1c1a1e;
+  background: #fd2147;
 }
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #fd2147;
+  background: #63a3fe;
 }
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
@@ -343,12 +343,12 @@ p:last-child {
 }
 .useful-footer::before {
   content: '';
-  display: inline-block;
+  display: none;
   vertical-align: middle;
   width: 0;
   height: 0;
   border-top: 10px solid transparent;
-  border-left: 10px solid #63a3fe;
+  border-left: 10px solid #fd2147;
   border-bottom: 10px solid transparent;
   position: relative;
   top: 0px;
