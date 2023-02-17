@@ -132,10 +132,10 @@ img {
   padding: 120px 0;
     padding-top: 120px;
 }
-.about-area-one {
+/*.about-area-one {
   padding-top: 340px;
   margin-top: -180px;
-}
+}*/
 .animate-section .icon-one {
   position: absolute;
   left: 40%;
@@ -219,6 +219,13 @@ img {
   height: 100%;
   z-index: 1;
   margin: 0 auto;
+  display: none;
+}
+.animate-section {
+  display: none;
+}
+#about .about-title h2, .about-content ul li {
+  color: #fd2147;
 }
 .about-title h2 {
   font-weight: 800;
@@ -394,6 +401,7 @@ p:last-child {
 }
 #about {
   background-image: linear-gradient(#fd2147 180px, #63a3fe 0);
+  background: transparent;
 }
 .mobilemenu {
   display: none;
@@ -495,8 +503,8 @@ border: 1px solid #abcdfe;
 }
 
 .about-area-one {
-  padding-top: 230px;
-  margin-top: -190px;
+  /*padding-top: 230px;
+  margin-top: -190px;*/
 }
 
 }
