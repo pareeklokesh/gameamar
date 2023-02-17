@@ -289,21 +289,105 @@ p:last-child {
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.footerlink, .footersocial {
-  flex-wrap: wrap;
-  list-style: none;
-}
-.footersocial img {
-  padding: 7px;
-}
-.footerlink li {
-  padding: 10px;
-}
+
 .patternbg {
   background: #222222;
 }
 .hero-slider {
   background: #fd2147;
+}
+#footer {
+  color: #444444;
+  font-size: 14px;
+  background: #1c1a1e;
+}
+#footer .footer-top {
+  padding: 60px 0 30px 0;
+  background: #000;
+}
+#footer .footer-top .footer-contact {
+  margin-bottom: 30px;
+}
+.useful-footer {
+  color: #999 !important;
+  font-size: 22px !important;
+  font-weight: 700 !important;
+  font-family: 'Rubik', sans-serif;
+  text-transform: uppercase;
+  position: relative !important;
+  list-style: none;
+}
+#footer .footer-top .footer-contact h4 {
+  font-size: 22px;
+  margin: 0 0 30px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-weight: 700;
+}
+#footer .footer-top .footer-contact p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+}
+.foot-img {
+  display: flex;
+  list-style-type: none;
+  grid-gap: 0px;
+  list-style: none !important;
+  margin-top: 10px;
+}
+.uds {
+  margin-top: 20px;
+}
+.useful-footer::before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-left: 10px solid #ff0e1f;
+  border-bottom: 10px solid transparent;
+  position: relative;
+  top: 0px;
+  padding-right: 15px;
+}
+.fllow-us span {
+  text-transform: capitalize !important;
+  margin-top: 15px;
+}
+.social_icon_container {
+  display: flex;
+  justify-content: left !important;
+}
+.social_icon_container a {
+  margin-right: 7px !important;
+}
+.social_icon_container img {
+  margin-right: 7px !important;
+}
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#footer .footer-top .footer-links ul li {
+  padding: 8px 0;
+  display: flex;
+  align-items: center;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: #fff;
+  transition: 0.3s;
+  white-space: nowrap;
+  display: inline-block;
+  line-height: 1;
+}
+.copyright {
+  color: #fff;
 }
 
 
