@@ -538,6 +538,15 @@ border: 1px solid #abcdfe;
   padding-bottom: 10px;
   font-weight: 700;
 }
+.content_wrapperh .list li {
+  color: #000;
+  list-style-type: circle;
+  text-transform: lowercase;
+  color: #333;
+}
+.content_wrapperh .list {
+  padding-left: 15px;
+}
 
 
 
