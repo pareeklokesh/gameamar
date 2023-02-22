@@ -576,5 +576,24 @@ border: 1px solid #abcdfe;
 .header-nav ul li {
   padding: 0px !important;
 }
+.header {
+  background: #fd2147;
+}
+.logo img {
+  width: 100px;
+}
+.w-auto.mobilenav {
+  padding: 0 20px;
+}
 
+}
+
+@media (max-width: 766px) {
+  .hero-slider {
+  min-height: inherit;
+  padding-top: 135px;
+}
+.hero-slider::after {
+  background-size: cover;
+}
 }
