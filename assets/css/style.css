@@ -547,6 +547,19 @@ border: 1px solid #abcdfe;
 .content_wrapperh .list {
   padding-left: 15px;
 }
+.service-icon i {
+  color: #000;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  font-style: normal;
+  margin-bottom: 15px;
+}
 
 
 
